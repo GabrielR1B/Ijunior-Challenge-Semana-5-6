@@ -4,7 +4,7 @@ import './passwordgenerator.css';
 function PasswordGenerator() {
   return (
     <div className="password-generator">
-      <h2>Gerador de Senhas</h2>
+      <h2>Password generator</h2>
 
       <label>
         <input type="checkbox" />
@@ -28,7 +28,7 @@ function PasswordGenerator() {
 
       <input type="text" readOnly placeholder="Sua senha aparecerá aqui" />
 
-      <button disabled>Gerar Senha</button>
+      <button>Gerar Senha</button>
     </div>
   );
 }
